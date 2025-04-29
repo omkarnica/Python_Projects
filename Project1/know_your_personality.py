@@ -32,5 +32,9 @@ else:
 
 print(f"Your Secret Personality Code is: {name[0:2].upper()+str(age//10)+animal[0]+color[0]}")
 
-print("You are officially certified as: FUNKY AND FABULOUS!" )
+if len(hobby)>9:
+    print("You seem deeply passionate — that hobby says a lot about your vibe!")
+else:
+    print(" Time to explore more hobbies? You’ve got hidden sparks waiting!")
 
+print("You are officially certified as: FUNKY AND FABULOUS!" )
